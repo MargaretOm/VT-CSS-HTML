@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 15px;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background: whitesmoke;
+    min-width: 640px;
+    height: 100%;
+}
+.main{
+    position: relative;
+    min-height: 100%;
+}
+
+.Nav-for-computer{
+    background: rgba(67, 110, 86, 0.712);
+    border-radius: 25px;
+}
+.header-menu {
+    list-style: none;                    
+    display: flex;
+}
+
+.header-menu-item {
+    padding: 40px 30px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}               
+
+a:hover{
+    color: white !important;
+    background: lightgrey;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.benefits{
+    padding: 40px;
+    font-size: 25px;
+    padding-bottom: 150px;
+}
+
+.text-benefits{
+    background: rgba(151, 139, 116, 0.342);
+    border-radius: 25px;
+    padding:30px;
+    width: 70%;
+
+}
+
+
+
+.contacts{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: grey;
+    font-size: 25px;
+    text-align: center;
+    background: lightgrey;
+}
+
+
+@media (min-width: 800px) and (max-width: 1024px) {
+    .contacts{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .header-menu-item {
+        padding: 35px 25px;
+        font-size: 15px;
+    }          
+    
+    a:hover{
+        font-size: 15px;
+    }
+
+    .benefits{
+        padding: 30px;
+        font-size: 20px
+    }
+    
+    .text-benefits{
+        padding:25px;
+    }
+  
+}
+
+@media (min-width: 0px) and (max-width: 800px) {
+    .contacts{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .header-menu-item {
+        padding: 30px 20px;
+        font-size: 15px;
+    }   
+
+    a:hover{
+        font-size: 15px;
+    }
+
+    .benefits{
+        padding: 25px;
+        font-size: 15px
+    }
+    
+    .text-benefits{
+        padding:20px;
+    }
+}

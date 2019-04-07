@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 15px;
+}
+html{
+    height: 100%;
+}
+body{
+    background: whitesmoke;
+    min-width: 640px;
+    height: 100%;
+}
+.main{
+    position: relative;
+    min-height: 100%;
+}
+
+.Nav-for-computer{
+    background: rgba(67, 110, 86, 0.712);
+    border-radius: 25px;
+}
+
+.header-menu {
+    list-style: none;                    
+    display: flex;
+}
+
+.header-menu-item {
+    padding: 40px 30px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}               
+
+.info{
+    display: flex;
+    padding-bottom: 150px;
+}
+
+.info-logo{
+    flex:1;
+}
+
+.info-text{
+    flex:1;
+    font-size: 30px;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.contacts{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: grey;
+    font-size: 25px;
+    text-align: center;
+    background: lightgrey;
+}
+
+a:hover{
+    color: white !important;
+    background: lightgrey;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold; 
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+p{
+    padding: 20px;
+}
+
+
+@media (min-width: 800px) and (max-width: 1024px) {
+    .info-text{
+        font-size: 20px;
+        padding-top: 80px;
+        padding-left: 40px;
+    }
+
+    p{
+        padding: 15px;
+    }
+
+    .contacts{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .header-menu-item {
+        padding: 35px 25px;
+        font-size: 15px;
+    }          
+    
+    a:hover{
+        font-size: 15px;
+    }
+  
+}
+
+@media (min-width: 0px) and (max-width: 800px) {
+    .info-text{
+        font-size: 15px;
+        padding-top: 60px;
+        padding-left: 30px;
+    }
+
+    p{
+        padding: 10px;
+    }
+
+    .contacts{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .header-menu-item {
+        padding: 30px 20px;
+        font-size: 15px;
+    }   
+
+    a:hover{
+        font-size: 15px;
+    }
+}
+
